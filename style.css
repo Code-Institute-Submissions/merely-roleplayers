@@ -1,6 +1,18 @@
 footer {
-    background-color: #444444;
+    background-color: #5a00b5;
     color: #ffffff;
+}
+
+.footer-nav {
+    list-style-type: none;
+}
+
+.footer-link {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .navbar {
@@ -13,4 +25,16 @@ footer {
 
 .navbar-toggler-icon {
     color: #ffffff;
+}
+
+.current-season {
+    padding-top: 20px;
+}
+
+.current-season-image {
+    display: inline-block;
+}
+
+.current-season-text {
+    display: inline-block;
 }
