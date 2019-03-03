@@ -1,40 +1,64 @@
-footer {
-    background-color: #5a00b5;
-    color: #ffffff;
-}
-
-.footer-nav {
-    list-style-type: none;
-}
-
-.footer-link {
-    color: #ffffff;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
 .navbar {
-    background-color: #5a00b5;
+    background-color: #2a064e;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+footer {
+    background-color: #2a064e;
     color: #ffffff;
 }
 
-.navbar-toggler-icon {
-    color: #ffffff;
+.callout-container {
+    height: 100vh;
+    background: url('../assets/images/cover-image.jpg');
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    margin-top: 5%;
+    background: rgba(42, 6, 78, 0.9);
+}
+
+.callout-header {
+    color: #fff;
+}
+
+.callout-sub {
+    color: #fff;
+}
+
+.callout-text {
+    color: #fff;
 }
 
 .current-season {
-    padding-top: 20px;
+    background-color: #2a064e;
 }
 
-.current-season-image {
-    display: inline-block;
+.current-season-header{
+    color: #fff;
 }
 
 .current-season-text {
-    display: inline-block;
+    color: #fff;
 }
+
