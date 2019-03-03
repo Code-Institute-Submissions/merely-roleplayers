@@ -1,27 +1,82 @@
+* {
+    font-family: 'Arimo', sans-serif;
+}
+
+/* Navigation */
+
 .navbar {
     background-color: #2a064e;
 }
 
 .navbar .navbar-brand {
     color: #fff;
-    font-family: 'Arimo', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Footer */
+
 
 footer {
     background-color: #2a064e;
     color: #ffffff;
 }
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section {
+    padding-top: 10px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.footer-list a {
+    color: rgba(255,255,255,.5);
+}
+
+.footer-list a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.listen-button {
+    margin: 10px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a i {
+    color: rgba(255,255,255,.5);
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.social-links li a i:hover {
+    color: rgba(255,255,255,1);
+}
+
+/* Callout */
 
 .callout-container {
     height: 100vh;
