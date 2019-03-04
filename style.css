@@ -121,23 +121,11 @@ hr {
     color: #fff;
 }
 
-.current-season {
-    background-color: #2a064e;
-}
-
-.current-season-header{
-    color: #fff;
-}
-
-.current-season-text {
-    color: #fff;
-}
-
 /* Listen */
 
 .listen-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .audio-player {
@@ -147,5 +135,32 @@ hr {
 .latest-episode {
     display: inline-block;
     text-align: left;
+}
+
+/* Current Season */
+
+.current-season {
+    background-color: #2a064e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.current-season-header {
+    color: #fff;
+    font-weight: bold;
+}
+
+.current-season-text {
+    color: #fff;
+    text-align: left;
+}
+
+.current-season-text a {
+    color: rgba(255,255,255,.5);
+}
+
+.current-season-text a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
 }
 
