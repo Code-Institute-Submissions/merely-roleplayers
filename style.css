@@ -78,6 +78,15 @@ footer ul {
 
 /* Callout */
 
+hr {
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
 .callout-container {
     height: 100vh;
     background: url('../assets/images/cover-image.jpg');
@@ -118,5 +127,12 @@ footer ul {
 
 .current-season-text {
     color: #fff;
+}
+
+/* Subscribe */
+
+.subscribe-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
