@@ -164,6 +164,19 @@ hr {
     text-decoration: none;
 }
 
+.other-seasons-text {
+    color: #fff;
+}
+
+.other-seasons-text a {
+    color: rgba(255,255,255,.5);
+}
+
+.other-seasons-text a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
 /* Review Section */
 
 .review-section {
