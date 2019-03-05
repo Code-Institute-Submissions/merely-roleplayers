@@ -188,3 +188,7 @@ hr {
     font-weight: bold;
 }
 
+.blockquote i {
+    font-size: 0.5rem;
+}
+
