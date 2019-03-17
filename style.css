@@ -192,3 +192,56 @@ hr {
     font-size: 0.5rem;
 }
 
+/* About Page */
+
+.mr-logo {
+    margin: auto;
+}
+
+.brief-summary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-seasons {
+    background-color: #2a064e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-seasons-text {
+    color: #fff;
+}
+
+.systems-used {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.systems-used-text {
+    text-align: left;
+}
+
+.podcast-business {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pbta-logo {
+    padding: 10px;
+}
+
+.sw-logo {
+    padding: 10px;
+}
+
+.id-logo {
+    padding: 10px;
+}
+
+/* Episodes Page */
+
+.episodes-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
