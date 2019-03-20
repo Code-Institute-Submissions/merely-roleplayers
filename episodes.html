@@ -15,7 +15,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Merely Roleplayers</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,54 +52,50 @@
                 <h1>Episodes</h1>
             </div>
         </div>
+        
+        <div class="row col-md-12">
+            <div class="container text-center">
+                <p><strong>Merely Roleplayers</strong> updates every Tuesday at 5:00am GMT.</p>
+                <p>Episodes alternate between <strong>Story Acts</strong> which advance the current season's story; and <strong>Backstage</strong> episodes, shorter bonus content looking at character creation and other mechnical aspects of the roleplaying games the podcast uses.</p>
+                
+            </div>
+            
+            
+        </div>
 
         <div class="row col-md-12">
 
-            <div class="container">
+            <div class="container" id="myGroup">
 
                 <p class="text-center">
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
-    Season One
-  </a>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
-    Season Two
-  </a>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
-    Season Three
-  </a>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">
-    Season Four
-  </a>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive">
-    Season Five
-  </a>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix">
-    Season Six
-  </a>
-
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne">Season One</a>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">Season Two</a>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">Season Three</a>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">Season Four</a>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive">Season Five</a>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix">Season Six</a>
                 </p>
                 
-                <div class="collapse text-center" id="collapseOne">
+                <div class="collapse show text-center" id="collapseOne" data-parent="#myGroup">
                     <div class="card card-body">
                         <h2>Ariadne</h2>
                         <p>Something's not right at the West End's Ariadne Theatre. For a start, why does no other company want the space? And why does everyone suddenly feel like they're being watched?</p>
-                        <p><strong>System:</strong> <a href="https://buriedwithoutceremony.com/little-games" target="_blank">Simple World</a></p>
+                        <p><strong>System:</strong> <a href="http://buriedwithoutceremony.com/little-games/simple-world" target="_blank">Simple World</a></p>
                         <p><strong>Players:</strong> Ellie, Vikki, Alex and Strat. Hosted by Matt.</p>
 
                         <h4>Ariadne, Act One</h4>
                         <p>The company arrives at the down-on-its-luck Ariadne theatre, meets the staff, and starts to experience some unsettling sensations. Emphatically not sponsored by Bovril.</p>
                         <iframe src="https://www.podbean.com/media/player/6y7ex-797141?from=site&skin=1&share=1&fonts=Helvetica&auto=0&download=1&version=1" height="122" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
 
-                        <a class="btn btn-primary listen-button" href="https://merelyroleplayers.podbean.com/category/01-ariadne/" role="button" target="_blank">All Episodes</a>
+                        <a class="btn btn-primary all-episodes" href="https://merelyroleplayers.podbean.com/category/01-ariadne/" role="button" target="_blank">All Episodes</a>
 
                     </div>
                 </div>
-
-                <div class="collapse text-center" id="collapseTwo">
+                <div class="collapse text-center" id="collapseTwo" data-parent="#myGroup">
                     <div class="card card-body">
                         <h2>Five Stage a Rescue</h2>
                         <p>A young stagehand is missing. The company (and Ellie's cat, Tilly) give chase, but in a theatre built in a natural cave system, there's no telling where young Alfie might be - of what he might have discovered...</p>
-                        <p><strong>System:</strong> <a href="https://buriedwithoutceremony.com/little-games" target="_blank">Simple World</a></p>
+                        <p><strong>System:</strong> <a href="http://buriedwithoutceremony.com/little-games/simple-world" target="_blank">Simple World</a></p>
                         <p><strong>Players:</strong> Ellie, Vikki, Chris S and David. Hosted by Matt.</p>
                         <p>Content warning: child endangerment</p>
                         
@@ -112,12 +108,11 @@
                         
                     </div>
                 </div>
-                
-                <div class="collapse text-center" id="collapseThree">
+                <div class="collapse text-center" id="collapseThree" data-parent="#myGroup">
                     <div class="card card-body">
                         <h2>A Town Called Amnesty</h2>
                         <p>Four undercover deputies ride into a town that's on no map. The outlaw they seek is here, but so is a whole mess of trouble not one of them asked for.</p>
-                        <p><strong>System:</strong> <a href="https://buriedwithoutceremony.com/little-games" target="_blank">Simple World</a></p>
+                        <p><strong>System:</strong> <a href="http://buriedwithoutceremony.com/little-games/simple-world" target="_blank">Simple World</a></p>
                         <p><strong>Players:</strong> Ellie, Alex, Strat and Helen. Hosted by Matt.</p>
                         <p>Content warnings: gun violence, blood, death</p>
                         
@@ -129,12 +124,11 @@
                         
                     </div>
                 </div>
-
-                <div class="collapse text-center" id="collapseFour">
+                <div class="collapse text-center" id="collapseFour" data-parent="#myGroup">
                     <div class="card card-body">
-                        <h4>Let's Get Gideon</h4>
+                        <h2>Let's Get Gideon</h2>
                         <p>Gideon Gilchrist fancies himself a patron of the arts, which is good, because Blackshaw need some cash, and they're artists. Con artists, that is.</p>
-                        <p><strong>System:</strong> <a href="https://buriedwithoutceremony.com/little-games" target="_blank">Simple World</a></p>
+                        <p><strong>System:</strong> <a href="http://buriedwithoutceremony.com/little-games/simple-world" target="_blank">Simple World</a></p>
                         <p><strong>Players:</strong> Ellie, David, Josh and Chris B. Hosted by Matt.</p>
                         <p>Content warning: frequent discussion of blood</p>
                         
@@ -145,12 +139,11 @@
                         <a class="btn btn-primary listen-button" href="https://merelyroleplayers.podbean.com/category/04-lets-get-gideon/" role="button" target="_blank">All Episodes</a>
                     </div>
                 </div>
-
-                <div class="collapse text-center" id="collapseFive">
+                <div class="collapse text-center" id="collapseFive" data-parent="#myGroup">
                     <div class="card card-body">
-                        <h4>Codename: Mosaic</h4>
+                        <h2>Codename: Mosaic</h2>
                         <p>Agents in all the world's intelligence services are turning on their colleagues for no reason. A four-person sleeper cell is activated to hunt down the individual pulling the strings.</p>
-                        <p><strong>System:</strong> <a href="https://buriedwithoutceremony.com/little-games" target="_blank">Simple World</a></p>
+                        <p><strong>System:</strong> <a href="http://buriedwithoutceremony.com/little-games/simple-world" target="_blank">Simple World</a></p>
                         <p><strong>Players:</strong> Ellie, Vikki, Strat and Chris M (guesting from <a href="http://www.kaiju.fm/the-space-jam-continuum/" target="_blank">The Space Jam Continuum</a>. Hosted by Matt.</p>
                         <p>Content warning: bloody violence</p>
                         
@@ -161,10 +154,9 @@
                         <a class="btn btn-primary listen-button" href="https://merelyroleplayers.podbean.com/category/05-codename-mosaic/" role="button" target="_blank">All Episodes</a>
                     </div>
                 </div>
-
-                <div class="collapse text-center" id="collapseSix">
+                <div class="collapse text-center" id="collapseSix" data-parent="#myGroup">
                     <div class="card card-body">
-                        <h4>Parallax</h4>
+                        <h2>Parallax</h2>
                         <p>The Simulation predicts what's best for the galaxy - but our heroes were never all that predictable.</p>
                         <p><strong>System:</strong> <a href="https://adrian-thoen.itch.io/impulse-drive" target="_blank">Impulse Drive</a></p>
                         <p><strong>Players:</strong> Ellie, David, Vikki, Alex, Strat, Chris S and Matt. Hosted by Matt and Chris M (guesting from <a href="http://www.kaiju.fm/the-space-jam-continuum/" target="_blank">The Space Jam Continuum</a>.</p>
@@ -181,7 +173,6 @@
             </div>
 
         </div>
-
 
     </section>
 

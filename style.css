@@ -245,3 +245,28 @@ hr {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+.all-episodes {
+    width: 100px;
+    margin: 5px;
+}
+
+/* Players Page */
+
+.player-main {
+    background-color: #2a064e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Contact Page */
+
+.contact-form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.press-kit {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
