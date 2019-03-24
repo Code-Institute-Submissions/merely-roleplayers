@@ -262,6 +262,15 @@ hr {
     padding-bottom: 10px;
 }
 
+.episode-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.audio-player {
+    padding-bottom: 5px;
+}
+
 /* Players Page */
 
 .player-intro {
