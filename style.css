@@ -6,6 +6,24 @@
     font-weight: bold;
 }
 
+.page-header {
+    height: 30vh;
+    background: url('../assets/images/cover-image.jpg');
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* Navigation */
 
 .navbar {
@@ -194,6 +212,19 @@ hr {
 
 /* About Page */
 
+.about-header {
+    height: 30vh;
+    background: url('../assets/images/cover-image.jpg');
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .mr-logo {
     margin: auto;
 }
@@ -241,7 +272,20 @@ hr {
 
 /* Episodes Page */
 
-.episodes-header {
+.episodes-header-image {
+    height: 30vh;
+    background: url('../assets/images/cover-image.jpg');
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.episodes-description {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -268,10 +312,23 @@ hr {
 }
 
 .audio-player {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 /* Players Page */
+
+.players-header {
+    height: 30vh;
+    background: url('../assets/images/cover-image.jpg');
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .player-intro {
     padding-top: 40px;
@@ -300,6 +357,19 @@ hr {
 
 /* Contact Page */
 
+.contact-header {
+    height: 30vh;
+    background: url('../assets/images/cover-image.jpg');
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact-details {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -310,7 +380,14 @@ hr {
     padding-bottom: 40px;
 }
 
-.press-kit {
+.press-info {
+    background-color: #2a064e;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.social-info {
     padding-top: 40px;
     padding-bottom: 40px;
 }
