@@ -247,19 +247,54 @@ hr {
 }
 
 .all-episodes {
-    width: 100px;
+    width: 200px;
     margin: 5px;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.header-box {
+    background-color: #2a064e;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Players Page */
 
-.player-main {
-    background-color: #2a064e;
+.player-intro {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+.player-main {
+    background-color: #2a064e;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.player-alternate {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.player-image {
+    display: inline-block;
+}
+
+.player-description {
+    display: inline-block;
+}
+
 /* Contact Page */
+
+.contact-details {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 .contact-form {
     padding-top: 40px;
