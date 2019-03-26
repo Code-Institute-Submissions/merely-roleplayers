@@ -34,6 +34,7 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -236,12 +237,13 @@ hr {
 
 .about-seasons {
     background-color: #2a064e;
+    color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.about-seasons-text {
-    color: #fff;
+.story-list {
+    list-style: none;
 }
 
 .systems-used {
@@ -249,13 +251,17 @@ hr {
     padding-bottom: 40px;
 }
 
-.systems-used-text {
-    text-align: left;
+.embed-responsive {
+    padding-bottom: 15px;
 }
 
-.podcast-business {
-    padding-top: 40px;
-    padding-bottom: 40px;
+.about-divide {
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border: 0;
+    border-top: 1px solid rgba(42, 6, 78, 0.5);
 }
 
 .pbta-logo {
@@ -272,27 +278,19 @@ hr {
 
 /* Episodes Page */
 
-.episodes-header-image {
-    height: 30vh;
-    background: url('../assets/images/cover-image.jpg');
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.episodes-intro {
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
-.episodes-description {
-    padding-top: 40px;
-    padding-bottom: 40px;
+.episode-cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .all-episodes {
     width: 200px;
-    margin: 5px;
+    margin: auto;
 }
 
 .card-body {
@@ -330,6 +328,10 @@ hr {
     justify-content: center;
 }
 
+.card {
+    display: inline-block;
+}
+
 .player-intro {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -348,6 +350,14 @@ hr {
 }
 
 .player-image {
+    display: inline-block;
+}
+
+.player-image-right {
+    display: inline-block;
+}
+
+.player-description-left {
     display: inline-block;
 }
 
