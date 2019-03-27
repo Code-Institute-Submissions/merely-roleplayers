@@ -153,7 +153,10 @@ hr {
 
 .latest-episode {
     display: inline-block;
-    text-align: left;
+}
+
+.subscribe {
+    padding-bottom: 10px;
 }
 
 /* Current Season */
@@ -171,7 +174,6 @@ hr {
 
 .current-season-text {
     color: #fff;
-    text-align: left;
 }
 
 .current-season-text a {
@@ -358,16 +360,12 @@ hr {
     display: inline-block;
 }
 
-.player-image-right {
-    display: inline-block;
-}
-
-.player-description-left {
-    display: inline-block;
-}
-
 .player-description {
     display: inline-block;
+}
+
+.player-sub {
+    font-weight: bold;
 }
 
 /* Contact Page */
@@ -409,4 +407,11 @@ hr {
 .business-info {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 576px) .navbar .navbar-brand {
+    font-size: 15px;
 }
