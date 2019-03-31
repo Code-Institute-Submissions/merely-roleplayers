@@ -41,12 +41,14 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
     color: rgba(255, 255, 255, 0.9);
 }
 
 /* Footer */
-
 
 footer {
     background-color: #2a064e;
@@ -72,11 +74,11 @@ footer ul {
 }
 
 .footer-list a {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .footer-list a:hover {
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
 
@@ -89,14 +91,14 @@ footer ul {
 }
 
 .social-links li a i {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     width: 30px;
     height: 30px;
     font-size: 20px;
 }
 
 .social-links li a i:hover {
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* Callout */
@@ -177,11 +179,11 @@ hr {
 }
 
 .current-season-text a {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .current-season-text a:hover {
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
 
@@ -190,11 +192,11 @@ hr {
 }
 
 .other-seasons-text a {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .other-seasons-text a:hover {
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
 
@@ -400,10 +402,6 @@ hr {
     padding-bottom: 40px;
 }
 
-.press-download {
-    padding-bottom: 20px;
-}
-
 .business-info {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -412,6 +410,8 @@ hr {
 
 /* Media Queries */
 
-@media (min-width: 576px) .navbar .navbar-brand {
-    font-size: 15px;
+@media (max-width: 576px) {
+    .navbar .navbar-brand {
+        font-size: 15px;
+    }
 }
