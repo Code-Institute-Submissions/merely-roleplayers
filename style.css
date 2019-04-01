@@ -178,26 +178,17 @@ hr {
     color: #fff;
 }
 
-.current-season-text a {
+a {
     color: rgba(255, 255, 255, .5);
 }
 
-.current-season-text a:hover {
+a:hover {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
 
 .other-seasons-text {
     color: #fff;
-}
-
-.other-seasons-text a {
-    color: rgba(255, 255, 255, .5);
-}
-
-.other-seasons-text a:hover {
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
 }
 
 /* Review Section */
@@ -320,6 +311,11 @@ hr {
 .content-warning {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.seasons {
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 /* Players Page */
