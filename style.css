@@ -1,9 +1,7 @@
+/* General Styling */
+
 * {
     font-family: 'Arimo', sans-serif;
-}
-
-.section-header {
-    font-weight: bold;
 }
 
 .page-header {
@@ -22,6 +20,51 @@
 .page-title {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.white-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.purple-section {
+    background-color: #2a064e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+/* General Text Styling */
+
+a {
+    color: rgba(255, 255, 255, .5);
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.white-section a {
+    font-weight: bold;
+    color: rgba(42, 6, 78, 1);
+}
+
+.white-section a:hover {
+    color: rgba(42, 6, 78, .5);
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.section-header {
+    font-weight: bold;
 }
 
 /* Navigation */
@@ -52,7 +95,7 @@
 
 footer {
     background-color: #2a064e;
-    color: #ffffff;
+    color: #fff;
 }
 
 footer ul {
@@ -62,15 +105,6 @@ footer ul {
 
 .footer-section {
     padding-top: 10px;
-}
-
-.footer-heading {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.footer-text {
-    font-size: 16px;
 }
 
 .footer-list a {
@@ -103,18 +137,9 @@ footer ul {
 
 /* Callout */
 
-hr {
-    height: 2px;
-    width: 50%;
-    margin: auto;
-    padding: 15px;
-    border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-}
-
 .callout-container {
     height: 100vh;
-    background: url('../assets/images/cover-image.jpg');
+    background: url('./assets/images/general-images/cover-image.jpg');
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -130,30 +155,22 @@ hr {
     background: rgba(42, 6, 78, 0.9);
 }
 
-.callout-header {
+.callout {
     color: #fff;
 }
 
-.callout-sub {
-    color: #fff;
-}
-
-.callout-text {
-    color: #fff;
+hr {
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 /* Listen */
 
-.listen-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.audio-player {
-    display: inline-block;
-}
-
-.latest-episode {
+.listen-block {
     display: inline-block;
 }
 
@@ -163,40 +180,11 @@ hr {
 
 /* Current Season */
 
-.current-season {
-    background-color: #2a064e;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 .current-season-header {
-    color: #fff;
     font-weight: bold;
 }
 
-.current-season-text {
-    color: #fff;
-}
-
-a {
-    color: rgba(255, 255, 255, .5);
-}
-
-a:hover {
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
-}
-
-.other-seasons-text {
-    color: #fff;
-}
-
 /* Review Section */
-
-.review-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
 .reviews-header {
     font-weight: bold;
@@ -208,46 +196,16 @@ a:hover {
 
 /* About Page */
 
-.about-header {
-    height: 30vh;
-    background: url('../assets/images/cover-image.jpg');
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .mr-logo {
     margin: auto;
-}
-
-.brief-summary {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.about-seasons {
-    background-color: #2a064e;
-    color: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .story-list {
     list-style: none;
 }
 
-.systems-used {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 .embed-responsive {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .about-divide {
@@ -259,15 +217,7 @@ a:hover {
     border-top: 1px solid rgba(42, 6, 78, 0.5);
 }
 
-.pbta-logo {
-    padding: 10px;
-}
-
-.sw-logo {
-    padding: 10px;
-}
-
-.id-logo {
+.logo {
     padding: 10px;
 }
 
