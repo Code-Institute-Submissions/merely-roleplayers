@@ -97,8 +97,4 @@ Videos on the **About Page** were embedded via YouTube from the following channe
 
 All photos on the **Players Page** were sourced from [Pexels](https://www.pexels.com/), a stock image library and used as placeholders.
 
-### Acknowledgements
-
-
-
 **This site is for educational use**
