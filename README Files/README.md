@@ -61,7 +61,9 @@ The site was tested across multiple browsers (Chrome, Internet Explorer, Firefox
 
 ## Deployment
 
-The Merely Roleplayers website is hosted on GitHub Pages at [https://twelvepercenthero.github.io/merely-roleplayers/](https://twelvepercenthero.github.io/merely-roleplayers/).
+The Merely Roleplayers website is hosted on GitHub Pages at [https://twelvepercenthero.github.io/merely-roleplayers/](https://twelvepercenthero.github.io/merely-roleplayers/) directly from the master branch.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/TwelvePercentHero/merely-roleplayers.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 ## Credits
 
