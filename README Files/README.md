@@ -61,6 +61,7 @@ The site was tested across multiple browsers (Chrome, Internet Explorer, Firefox
 
 ## Deployment
 
+The Merely Roleplayers website is hosted on GitHub Pages at [https://twelvepercenthero.github.io/merely-roleplayers/](https://twelvepercenthero.github.io/merely-roleplayers/).
 
 ## Credits
 
