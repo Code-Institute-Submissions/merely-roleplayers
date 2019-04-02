@@ -274,45 +274,12 @@ hr {
 
 /* Players Page */
 
-.players-header {
-    height: 30vh;
-    background: url('../assets/images/cover-image.jpg');
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card {
-    display: inline-block;
-}
-
 .player-intro {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.player-main {
-    background-color: #2a064e;
-    color: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.player-alternate {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.player-image {
-    display: inline-block;
-}
-
-.player-description {
+.player-block {
     display: inline-block;
 }
 
