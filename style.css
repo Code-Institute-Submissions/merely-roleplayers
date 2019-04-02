@@ -178,6 +178,10 @@ hr {
     padding-bottom: 10px;
 }
 
+.subscribe a {
+    color: #fff;
+}
+
 /* Current Season */
 
 .current-season-header {
@@ -286,44 +290,6 @@ hr {
 .player-sub {
     font-weight: bold;
 }
-
-/* Contact Page */
-
-.contact-header {
-    height: 30vh;
-    background: url('../assets/images/cover-image.jpg');
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-details {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.contact-form {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.press-info {
-    background-color: #2a064e;
-    color: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.business-info {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 
 /* Media Queries */
 
