@@ -225,17 +225,17 @@ hr {
 
 .episodes-intro {
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.seasons {
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 .episode-cards {
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.all-episodes {
-    width: 200px;
-    margin: auto;
 }
 
 .card-body {
@@ -254,18 +254,22 @@ hr {
     padding-bottom: 10px;
 }
 
+.episode-description a {
+    font-weight: bold;
+    color: rgba(42, 6, 78, 1);
+}
+
+.episode-description a:hover {
+    color: rgba(42, 6, 78, .5);
+}
+
 .audio-player {
     padding-bottom: 10px;
 }
 
-.content-warning {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.seasons {
-    display: inline-block;
-    padding-bottom: 10px;
+.all-episodes {
+    width: 200px;
+    margin: auto;
 }
 
 /* Players Page */
