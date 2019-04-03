@@ -6,7 +6,7 @@
 
 .page-header {
     height: 30vh;
-    background: url('./assets/images/general-images/cover-image.jpg');
+    background: url('/assets/images/general-images/cover-image.jpg');
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -139,7 +139,7 @@ footer ul {
 
 .callout-container {
     height: 100vh;
-    background: url('./assets/images/general-images/cover-image.jpg');
+    background: url('/assets/images/general-images/cover-image.jpg');
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
