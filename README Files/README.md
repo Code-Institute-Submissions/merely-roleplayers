@@ -10,7 +10,7 @@ My goal in the design was to make it as easy as possible for users to access inf
 
 As the website is designed to be the online home for a podcast, spotlighting the ability to listen and subscribe to the podcast was paramount, so I wanted to make sure there were prominent links to new and old episodes across the site. The 'Listen' button in the footer was inserted to ensure that users could easily access the latest episode of the podcast regardless of which page they were on at the time. Mobile responsiveness was also important as people are likely to be listening to the podcast on their phone, so allowing them to access a responsive and easy-to-use version of the website while on their mobile phone was vital to the overall design.
 
-A series of user stories relating to the different types of possible users can be found [here](./README Files/user-stories.md) and wireframes can be found [here](./README Files/Merely Roleplayers - Wireframes.pdf)
+A series of user stories relating to the different types of possible users can be found [here](user-stories.md) and wireframes can be found [here](wireframes.pdf)
 
 ## Technologies
 
