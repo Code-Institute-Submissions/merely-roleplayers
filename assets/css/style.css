@@ -195,6 +195,11 @@ hr {
     margin: auto;
 }
 
+.carousel {
+    max-width: 300px;
+    margin: auto;
+}
+
 .story-list {
     list-style: none;
 }
