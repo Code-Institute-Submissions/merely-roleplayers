@@ -265,6 +265,7 @@ hr {
 
 .audio-player {
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 .all-episodes {
