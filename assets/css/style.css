@@ -1,12 +1,12 @@
 /* General Styling */
 
-* {
+body {
     font-family: 'Arimo', sans-serif;
 }
 
 .page-header {
     height: 30vh;
-    background: url('./assets/images/general-images/cover-image.jpg');
+    background: url('../images/general-images/cover-image.jpg');
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15,6 +15,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.lg-img {
+    height: 100vh;
 }
 
 .page-title {
@@ -136,19 +140,6 @@ footer ul {
 }
 
 /* Callout */
-
-.callout-container {
-    height: 100vh;
-    background: url('./assets/images/general-images/cover-image.jpg');
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .jumbotron {
     margin-top: 5%;
